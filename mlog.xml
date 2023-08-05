@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="MLog" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="yes" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1">0x 0b</Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">:</Keywords>
+            <Keywords name="Operators2">add sub mul div idiv mod pow equal notEqual land lessThan lessThanEq greaterThan greaterThanEq strictEqual shl shr or and xor not max min angle angleDiff len noise abs log log10 floor ceil sqrt rand sin cos tan asin acos atan</Keywords>
+            <Keywords name="Folders in code1, open">FUNC func</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">END_FUNC end_func always</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">set op lookup packcolor</Keywords>
+            <Keywords name="Keywords2">read write draw print</Keywords>
+            <Keywords name="Keywords3">drawflush printflush getlink control radar sensor</Keywords>
+            <Keywords name="Keywords4">wait stop end jump</Keywords>
+            <Keywords name="Keywords5">ubind ucontrol uradar ulocate</Keywords>
+            <Keywords name="Keywords6">@this @thisx @thisy @ipt @counter @links @unit @time @tick @mapw @maph&#x000D;&#x000A;clear color col stroke line rect lineRect poly linePoly triangle image&#x000D;&#x000A;block unit item fluid&#x000D;&#x000A;equal notEqual lessThan lessThanEq greaterThan greaterThanEq strictEqual always&#x000D;&#x000A;idle stop move approach pathFind boost target targetp itemDrop itemTake payDrop payTake payEnter mine flag build getBlock within unbind&#x000D;&#x000A;any enemy ally player attacker flying boss ground&#x000D;&#x000A;distance health shield armor maxHealth&#x000D;&#x000A;ore building spawn damaged core storage generator turret factory repair battery reactor&#x000D;&#x000A;enabled shoot shootp config color&#x000D;&#x000A;true false&#x000D;&#x000A;@totalItems @firstItem @totalLiquids @totalPower @itemCapacity @liquidCapacity @powerCapacity @powerNetStored @powerNetCapacity @powerNetIn @powerNetOut @ammo @ammoCapacity @health @maxHealth @heat @efficiency @progress @timescale @rotation @x @y @shootX @shootY @size @dead @range @shooting @boosting @mineX @mineY @mining @speed @team @type @flag @controlled @controller @name @payloadCount @payloadType @enabled @config @color</Keywords>
+            <Keywords name="Keywords7">@dagger @mace @fortress @scepter @reign @nova @pulsar @quasar @vela @corvus @crawler @atrax @spiroct @arkyid @toxopid @flare @horizon @zenith @antumbra @eclipse @mono @poly @mega @quad @oct @risso @minke @bryde @sei @omura @retusa @oxynoe @cyerce @aegires @navanax @alpha @beta @gamma @stell @locus @precept @vanquish @conquer @merui @clerai @anthicus @tecta @collaris @elude @avert @obviate @quell @disrupt @evoke @incite @emanate&#x000D;&#x000A;@copper @lead @metaglass @graphite @coal @sand @titanium @thorium @scrap @silicon @plastanium @phase-fabric @surge-alloy @spore-pod @blast-compound @pyratite @beryllium @fissile-matter @dormant-cyst @tungsten @carbide @oxide&#x000D;&#x000A;@water @slag @oil @cryofluid @neoplasm @hydrogen @ozone @cyanogen @gallium @nitrogen @arkycite&#x000D;&#x000A;@graphite-press @multi-press @silicon-smelter @silicon-crucible @kiln @plastanium-compressor @phase-weaver @cryofluid-mixer @pyratite-mixer @blast-mixer @melter @separator @disassembler @spore-press @pulverizer @coal-centrifuge @incinerator @copper-wall @copper-wall-large @titanium-wall @titanium-wall-large @plastanium-wall @plastanium-wall-large @thorium-wall @thorium-wall-large @phase-wall @phase-wall-large @surge-wall @surge-wall-large @door @door-large @scrap-wall @scrap-wall-large @scrap-wall-huge @scrap-wall-gigantic @mender @mend-projector @overdrive-projector @overdrive-dome @force-projector @shock-mine @conveyor @titanium-conveyor @plastanium-conveyor @armored-conveyor @junction @bridge-conveyor @phase-conveyor @sorter @inverted-sorter @router @distributor @overflow-gate @underflow-gate @mass-driver @duct @duct-router @duct-bridge @mechanical-pump @rotary-pump @impulse-pump @conduit @pulse-conduit @plated-conduit @liquid-router @liquid-tank @liquid-junction @bridge-conduit @phase-conduit @power-node @power-node-large @surge-tower @diode @battery @battery-large @combustion-generator @thermal-generator @steam-generator @differential-generator @rtg-generator @solar-panel @solar-panel-large @thorium-reactor @impact-reactor @mechanical-drill @pneumatic-drill @laser-drill @blast-drill @water-extractor @cultivator @oil-extractor @core-shard @core-foundation @core-nucleus @vault @container @unloader @duo @scatter @scorch @hail @wave @lancer @arc @parallax @swarmer @salvo @segment @tsunami @fuse @ripple @cyclone @foreshadow @spectre @meltdown @command-center @ground-factory @air-factory @naval-factory @additive-reconstructor @multiplicative-reconstructor @exponential-reconstructor @tetrative-reconstructor @repair-point @repair-turret @resupply-point @payload-conveyor @payload-router @payload-propulsion-tower @power-source @power-void @item-source @item-void @liquid-source @liquid-void @payload-void @payload-source @illuminator @launch-pad @interplanetary-accelerator @message @switch @micro-processor @logic-processor @hyper-processor @memory-cell @memory-bank @logic-display @large-logic-display @block-forge @payload-loader @payload-unloader @silicon-arc-furnace @cliff-crusher @plasma-bore @reinforced-liquid-junction @breach @core-bastion @turbine-condenser @beam-node @beam-tower @build-tower @impact-drill @carbide-crucible @surge-conveyer @duct-unloader @surge-router @reinforced-conduit @reinforced-liquid-router @reinforced-liquid-container @reinforced-liquid-tank @reinforced-bridge-conduit @core-citadel @core-acropolis @heat-reactor @impulse-pump @reinforced-pump @electrolyzer @oxidation-chamber @surge-smelter @surge-crucible @overflow-duct @large-plasma-bore @cyanogen-synthesizer @slag-centrifuge @electric-heater @slag-incinerator @phase-synthesizer @sublimate @reinforced-container @reinforced-vault @atmospheric-concentrator @unit-cargo-loader @unit-cargo-unload-point @chemical-combustion-chamber @pyrolysis-generator @regen-projector @titan @small-deconstructor @vent-condenser @phase-heater @heat-redirector @tungsten-wall @tungsten-wall-large @tank-assembler @beryllium-wall @beryllium-wall-large @eruption-drill @ship-assembler @mech-assembler @shield-projector @beam-link @world-processor @reinforced-payload-conveyor @reinforced-payload-router @disperse @large-shield-projector @payload-mass0driver @world-cell @carbide-wall @carbide-wall-large @tank-fabricator @mech-fabricator @ship-fabricator @reinforced-surge-wall @radar @blast-door @canvas @armored-duct @unit-repair-tower @diffuse @prime-refabricator @basic-assembler-module @reinforced-surg-wall-large @tank-refabricator @mech-refabricator @ship-refabricator @slag-heater @afflict @shielded-wall @lustre @scathe @smite @underflow-duct @malign @shockwave-tower @heat-source @flux-reactor @neoplasia-reactor @heat-router @large-payload-mass-driver @reinforced-message @world-message</Keywords>
+            <Keywords name="Keywords8">duo scatter scortch hail wave lancer arc parallax swarmer salvo segment tsunami fuse ripple cyclone foreshadow spectre meltdown&#x000D;&#x000A;drill extractor cultivator&#x000D;&#x000A;conveyor junction sorter router distributor gate driver source void&#x000D;&#x000A;pump conduit container tank&#x000D;&#x000A;node tower diode battery generator panel reactor&#x000D;&#x000A;wall door thruster&#x000D;&#x000A;press smelter crucible kiln compressor weaver mixer melter seperator disassembler pulverizer centrifuge incinirator&#x000D;&#x000A;factory constructor point turret&#x000D;&#x000A;mender projector dome mine vault unloader&#x000D;&#x000A;shard foundation nucleus&#x000D;&#x000A;message switch processor cell display</Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="FFFFFF" bgColor="FFFFFF" colorStyle="0" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="808080" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="0080FF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="000000" bgColor="877BAD" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="000000" bgColor="A08A8A" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="000000" bgColor="D4816B" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="6BB2B2" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="C7B59D" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF75BA" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="9175FF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="FFFF80" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FFBE7D" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="80FF80" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="80FFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
